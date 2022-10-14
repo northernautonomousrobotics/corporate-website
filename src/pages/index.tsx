@@ -10,21 +10,23 @@ const IndexPage = () => {
   return (
     <>
       <Seo title="Accueil" />
-      <div style={{ margin: 10 }}>
+      <div style={{ margin: 50 }}>
         <Card className="bg-dark text-white">
           <StaticImage
-            src="../images/lidar_point_cloud.png"
-            alt="Une cartographie 3D en nuage de points"
+            src="../images/forestry_template.png"
+            alt="Example of forest logging"
             placeholder="blurred"
+            width={1800}
+    	    height={900}
           />
           <Card.ImgOverlay style={{ backgroundColor: "#00000055" }}>
             <Card.Title
               style={{
                 fontSize:
-                  "calc(30px + (100 - 30) * ((100vw - 300px) / (1600 - 300)))",
+                  "calc(20px + (100 - 20) * ((90vw - 180px) / (1800 - 180)))",
               }}
             >
-              Cartographie 3D
+              Support of forest activities
             </Card.Title>
             <Card.Text
               style={{
@@ -32,27 +34,28 @@ const IndexPage = () => {
                   "calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))",
               }}
             >
-              Notre expertise en cartographie 3D permet à nos clients
-              d'améliorer leur productivité grace à une automatisation de leurs
-              différents véhicules.
+              Connect and reveal the richness of our forest with CARVI technologies
             </Card.Text>
           </Card.ImgOverlay>
         </Card>
-        <div style={{ margin: 5 }} />
-        <Card className="bg-dark text-white">
+        
+        <div style={{ margin: 50 }} />
+        <Card className="bg-white text-white">
           <StaticImage
-            src="../images/secteurs.png"
-            alt="Differents camions utilisés dans l'industrie"
+            src="../images/Draft_applications_carvi.svg"
+            alt="CARVI Technologies"
             placeholder="blurred"
+            width={3600}
+    	    height={2200}
           />
-          <Card.ImgOverlay style={{ backgroundColor: "#00000055" }}>
+          <Card.ImgOverlay style={{ backgroundColor: "#00000000" }}>
             <Card.Title
               style={{
                 fontSize:
                   "calc(30px + (100 - 30) * ((100vw - 300px) / (1600 - 300)))",
               }}
             >
-              Nos clients
+              
             </Card.Title>
             <Card.Text
               style={{
@@ -60,26 +63,28 @@ const IndexPage = () => {
                   "calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))",
               }}
             >
-              Nos clients se situent principalement dans les domaines
-              forestiers, miniers ou encore dans l'argriculture.
+              
             </Card.Text>
           </Card.ImgOverlay>
         </Card>
-        <div style={{ margin: 5 }} />
+        
+        <div style={{ margin: 50 }} />
         <Card className="bg-dark text-white">
           <StaticImage
-            src="../images/robot.webp"
-            alt="Un robot quadrupede"
+            src="../images/clients_carvi.svg"
+            alt="Different clients"
             placeholder="blurred"
+            width={3300}
+    	    height={2200}
           />
           <Card.ImgOverlay style={{ backgroundColor: "#00000055" }}>
             <Card.Title
               style={{
                 fontSize:
-                  "calc(30px + (100 - 30) * ((100vw - 300px) / (1600 - 300)))",
+                  "calc(20px + (100 - 20) * ((90vw - 180px) / (1800 - 180)))",
               }}
             >
-              Teach and repeat
+              Our clients
             </Card.Title>
             <Card.Text
               style={{
@@ -87,7 +92,7 @@ const IndexPage = () => {
                   "calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))",
               }}
             >
-              Décrouvrez une nouvelle façon d'apprendre à vos véhicules automatisés, les différentes taches que vous voulez qu'ils effectuent.
+              Forestry machine suppliers, forestry companies and forestry software companies
             </Card.Text>
           </Card.ImgOverlay>
         </Card>
