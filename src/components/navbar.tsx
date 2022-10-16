@@ -1,7 +1,7 @@
 import { graphql, Link, useStaticQuery } from "gatsby";
 import * as React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import logo from "../images/CARVI-logo.png";
+import logo from "../images/icon.png";
 
 interface QueryData {
   site: {
@@ -47,11 +47,11 @@ const NavBar = () => {
           <img
             alt=""
             src={logo}
-            width="400"
-            height="150"
+            width="30"
+            height="30"
             className="d-inline-block align-top"
           />
-          {""}
+          {" " + title}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
